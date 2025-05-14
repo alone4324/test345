@@ -33,7 +33,7 @@ const Interface = () => {
       {modal && <Modal />}
 
       {/* Logo */}
-      <img className="logo" src="https://github.com/michaelkolesidis/cherry-charm/blob/6bd3030960888631bf289b06232a525128969956/Copy%20of%20Add%20a%20little%20bit%20of%20body%20text.png?raw=true" />
+      <img className="logo" src="https://github.com/michaelkolesidis/cherry-charm/blob/6bd3030960888631bf289b06232a525128969956/Copy%20of%20Add%20a%20little%20bit%20of%20body%20text.png?raw=true" alt="Poppies Lottery Logo" />
 
       <div className="interface">
         {/* Coins */}
