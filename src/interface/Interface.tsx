@@ -20,7 +20,6 @@ import HelpButton from './helpButton/HelpButton';
 import './style.css';
 
 const Interface = () => {
-  // const phase = useGame((state) => state.phase);
   const modal = useGame((state) => state.modal);
   const coins = useGame((state) => state.coins);
   const spins = useGame((state) => state.spins);
@@ -34,12 +33,7 @@ const Interface = () => {
       {modal && <Modal />}
 
       {/* Logo */}
-      <a
-        href="https://github.com/michaelkolesidis/cherry-charm"
-        target="_blank"
-      >
-        <img className="logo" src="./images/logo.png" alt="" />
-      </a>
+      <img className="logo" src="https://i.imgur.com/YourImageID.png" alt="Poppies Lottery" />
 
       <div className="interface">
         {/* Coins */}
@@ -52,9 +46,6 @@ const Interface = () => {
         <div className="spins-section">
           <div className="spins-number">{spins}</div>
         </div>
-
-        {/* Phase */}
-        {/* <div >{phase.toUpperCase()}</div> */}
       </div>
     </>
   );
